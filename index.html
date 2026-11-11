@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Rajbabu Vishwakarma, a Computer Science student exploring Data Science, AI and frontend development.">
+  <title>Rajbabu Vishwakarma | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">RV<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">COMPUTER SCIENCE &amp; ENGINEERING STUDENT</p>
+        <h1>Hello, I'm <span>Rajbabu Vishwakarma</span></h1>
+        <h2>Exploring Data, Discovering Insights, Creating Intelligence.</h2>
+        <p class="hero-copy">I am a Computer Science and Engineering student building my foundations in programming and frontend development. I am interested in Data Science and Artificial Intelligence, and I enjoy learning how technology can solve practical problems.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Work</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Profile photo placeholder">
+        <!-- Profile photo: keep photo.jpg in the same folder as this file. -->
+        <div class="avatar"><img src="photo.jpg" alt="Portrait of Rajbabu Vishwakarma"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="floating-tag tag-one">CSE Student</span>
+        <span class="floating-tag tag-two">Data + AI</span>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
+      <div class="about-card">
+        <div class="about-mark">RV</div>
+        <div>
+          <h3>A curious learner with a technology-first mindset</h3>
+          <p>I am pursuing a degree in Computer Science and Engineering. I am currently developing my programming skills in C++ and C, learning HTML, and building practical computer and data-entry skills. My long-term interest is in Data Science and Artificial Intelligence. I aim to keep learning, strengthen my problem-solving ability, and build useful technology projects.</p>
+          <p class="note">This is an initial portfolio. I will add more projects as I complete them.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY CURRENT TOOLKIT</p><h2>Skills &amp; <span>Learning</span></h2>
+          <p class="section-intro">These reflect my current foundation and learning stage.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon">C++</span><h3>C++</h3><p>Basic programming</p></article>
+          <article class="skill-card"><span class="skill-icon">C</span><h3>C</h3><p>Basic programming</p></article>
+          <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Basic web page structure</p></article>
+          <article class="skill-card"><span class="skill-icon">DE</span><h3>Data Entry</h3><p>Domestic Data Entry Operator</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Projects &amp; <span>Practice</span></h2>
+        <p class="section-intro">I am at the beginning of my project-building journey. These entries clearly show my current practice work rather than claiming completed professional projects.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div><p class="project-type">FRONTEND DEVELOPMENT</p>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive portfolio website created as Webora Tec Internship Task 1 using HTML and CSS. It presents my introduction, current skills, learning interests and contact details.</p>
+          <span class="project-status">Internship Task 1</span>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div><p class="project-type">PROGRAMMING PRACTICE</p>
+          <h3>C and C++ Practice</h3>
+          <p>My ongoing practice in programming fundamentals, syntax and problem-solving as I strengthen my computer science foundation.</p>
+          <span class="project-status">In progress</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p><h2>Let's learn<br><span>and build together.</span></h2>
+          <p class="contact-copy">I welcome opportunities to connect with fellow learners, developers and technology enthusiasts.</p>
+          <div class="contact-links">
+            <a href="mailto:rajbabuvishwakarma264@email.com">rajbabuvishwakarma264@email.com</a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub — add your profile URL</a>
+            <a href="https://www.linkedin.com/in/rajbabu-vishwakarma-233b8942a/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required>
+          <label for="email">Email</label><input id="email" name="email" type="email" placeholder="your@email.com" required>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <button class="button primary" type="submit">Send Message</button>
+          <p class="form-note" id="form-note">Demo form: messages are not sent. A backend or form service is needed to receive submissions.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner">
+    <a class="logo" href="#home">RV<span>.</span></a>
+    <p>© <span id="year">2026</span> Rajbabu Vishwakarma. Built with HTML &amp; CSS.</p>
+    <a href="#home">Back to top ↑</a>
+  </div></footer>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuButton.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(open));
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('contact-form').addEventListener('submit', event => {
+      event.preventDefault();
+      document.getElementById('form-note').textContent =
+        'Thanks for your message. This demo form does not transmit data yet.';
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
